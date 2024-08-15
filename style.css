@@ -1,1 +1,41 @@
-@import url(style.css);
+@font-face {
+    font-weight: 300; 
+    font-family: IBM Plex Sans;
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf")
+}
+
+@font-face {
+    font-weight: 400; 
+    font-family: IBM Plex Sans;
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf")
+}
+
+@font-face {
+    font-weight: 500; 
+    font-family: IBM Plex Sans;
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf")
+}
+
+@font-face {
+    font-weight: 600; 
+    font-family: IBM Plex Sans;
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf")
+}
+
+@font-face {
+    font-weight: 700; 
+    font-family: IBM Plex Sans;
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf")
+}
+
+body {
+    width: 100%;
+}
+
+@media (min-width: 1800px) {
+
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    }
