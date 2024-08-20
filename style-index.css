@@ -1,7 +1,15 @@
 @import url(style.css);
 
+@import url(style-navbar.css);
+
+aside {
+  width: 20%;
+}
+
 main {
   display: flex;
+  justify-content: center;
+  padding: 0 30% 0 50%;
 }
 
 .index_content {
@@ -14,7 +22,7 @@ main {
 
 .index_content_hello {
   font-weight: 400;
-  font-size: 102px;
+  font-size: 100px;
   line-height: 1em;
 }
 

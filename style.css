@@ -1,53 +1,52 @@
 @font-face {
-    font-weight: 100; 
-    font-family: IBM Plex Sans;
-    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Thin.ttf")
+  font-weight: 100;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-Thin.ttf');
 }
 
 @font-face {
-    font-weight: 200; 
-    font-family: IBM Plex Sans;
-    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf")
+  font-weight: 200;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf');
 }
 
 @font-face {
-    font-weight: 300; 
-    font-family: IBM Plex Sans;
-    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf")
+  font-weight: 300;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf');
 }
 
 @font-face {
-    font-weight: 400; 
-    font-family: IBM Plex Sans;
-    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf")
+  font-weight: 400;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
 }
 
 @font-face {
-    font-weight: 500; 
-    font-family: IBM Plex Sans;
-    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf")
+  font-weight: 500;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf');
 }
 
 @font-face {
-    font-weight: 600; 
-    font-family: IBM Plex Sans;
-    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf")
+  font-weight: 600;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf');
 }
 
 @font-face {
-    font-weight: 700; 
-    font-family: IBM Plex Sans;
-    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf")
+  font-weight: 700;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf');
 }
 
 body {
-    width: 100%;
+  width: 100%;
 }
 
 @media (min-width: 1800px) {
-
-    body {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    }
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
