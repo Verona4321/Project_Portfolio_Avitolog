@@ -1,0 +1,98 @@
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf");
+    font-family: 'IBM_Plex_Sans_regular';
+}
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf");
+    font-family: 'IBM_Plex_Sans_bold';
+}
+
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Serif/IBMPlexSerif-Bold.ttf");
+    font-family: 'IBM_Plex_Serif_Bold';
+}
+
+* {box-sizing: border-box;}
+
+.body {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+min-width: 300px;
+background-color: black;
+position: sticky;
+top: 0;
+height: 100vh;
+}
+
+.navbar__inner * {
+    color: rgba(255, 255, 255, 1);
+    }
+
+.navbar__container {
+    height: 100%;
+    background-color: rgba(20, 19, 19, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.navbar__inner {
+    height: calc(100% - 112px);
+    max-width: 189px;
+    display: grid;
+    grid-template-rows: 140fr 500fr 214fr; 
+}  
+
+.menu__list {
+    list-style-type: none;
+    list-style-position: inside; 
+    padding-left: 0;
+    margin: 0;
+}
+
+.menu__list-item + .menu__list-item {
+    padding-top: 20px;
+}
+
+.menu__list-link {
+    text-decoration: none;
+    font-family: 'IBM_Plex_Sans_regular';
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.menu__list-link:hover {
+    font-family: 'IBM_Plex_Sans_bold';
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 4px;
+	background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
+}
+
+.logo__text {
+    font-family: 'IBM_Plex_Serif_Bold';
+    font-size: 30px;
+}
+
+.logo__text:hover {
+    font-size: 31px;
+}
+
+.socails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.socails__img {
+    max-width: 40px;
+    max-height: 40px;
+}
