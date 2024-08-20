@@ -2,6 +2,7 @@
 
 @import url(style-navbar.css);
 
+body {display: flex;}
 aside {
   width: 20%;
 }
@@ -9,7 +10,7 @@ aside {
 main {
   display: flex;
   justify-content: center;
-  padding: 0 30% 0 50%;
+  /*padding: 0 30% 0 50%;*/
 }
 
 .index_content {
