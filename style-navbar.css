@@ -92,13 +92,23 @@ height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 15px;
 }
 
-.socials__img {
-    max-width: 40px;
-    max-height: 40px;
+.socials__item-inner {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.socials__item-inner:hover {
+    background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
+}
+
 
 @media (min-width: 1024px) { 
     .menu__list-link {
