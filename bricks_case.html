@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-contacts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="style-navbar.css">
+    <link rel="stylesheet" href="style-about.css">
+    <link rel="stylesheet" href="style-case.css">
+    <link rel="stylesheet" href="style-contacts.css">
+    <title>Кейс: кирпичный завод</title>
+</head>
+<body>
+    <aside class="navbar">
+        <div class="navbar__container">
+            <div class="navbar__inner">
+                <a class="logo" href="about.html">
+                    <h1 class="logo__text">AL</h1>
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a href="index.html" class="menu__list-link">Главная</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="about.html" class="menu__list-link">Я и команда</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="portfolio.html" class="menu__list-link">Мои кейсы</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="reviews.html" class="menu__list-link">Отзывы</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="contacts.html" class="menu__list-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="socails">
+                    <a class="socails__item" href="https://t.me/artemlysovv">
+                        <img class="socails__img" src="assets/about/telegram.svg" alt="telegram">
+                    </a>
+                    <a class="socails__item" href="https://wa.me/+79999913899">
+                        <img class="socails__img" src="assets/about/whatsapp.svg" alt="whatsapp">
+                    </a>
+                    <a class="socails__item"
+                        href="https://www.instagram.com/artemlysovv?igsh=M3Y1OHl5MnFncjVt&utm_source=qr">
+                        <img class="socails__img" src="assets/about/Instagram.svg" alt="instagram">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </aside>
+    <main class="cases">
+        <section class="case_about">
+        <div class="name_of_case">
+        <h2><i>Наш кейс</i></h2>
+        <h1>КИРПИЧНЫЙ ЗАВОД</h1>
+        <p>Производство высококачественного кирпича в Московской области. Компания на рынке более 10 лет, но до нас рекламировалась стандартными методами, в основном с помощью рекламной сети Яндекса (РСЯ), куда вкладывала немало средств.</p>
+        </div>
+        <div class="pict_of_case"><img src="assets/portfolio/bricks_1.png" alt="" width="450px"></div>
+        </section>
+
+
+        <section class="numbers">
+            <div class="numbers__about">
+                <div class="numbers__number"><span class="number">40 000 ₽&nbsp;</span><i>потрачено</i></div>
+                <div class="numbers__description">Это совокупная стоимость затрат на рекламную компанию</div>
+            </div>
+        
+            <div class="numbers__about">
+                <div class="numbers__number"><span class="number">816 ₽&nbsp;</span><i>покупатель</i></div>
+                <div class="numbers__description">Каждый покупатель обошёлся клиенту в среднем 816 рублей, что очень дёшево для этой сферы</div>
+            </div>
+        
+            <div class="numbers__about">
+                <div class="numbers__number"><span class="number">3 960 000 ₽&nbsp;</span><i>выручка</i></div>
+                <div class="numbers__description">Именно столько удалось заработать клиенту за время проведения рекламы. Вложения окупились почти в стократном размере!</div>
+            </div>
+        </section>
+
+
+        <section class="rsya">
+            Результаты нашего продвижения на Авито были эффективнее результатов продвижения в рекламной сети Яндекса (РСЯ) в <span class="number">1.6 раз!</span>
+        </section>
+
+        <section class="case_pictures">
+            <div class="case_pic"><img src="assets/portfolio/case.png" alt="" class="zoom"></div>
+            <div class="case_pic"><img src="assets/portfolio/case_1.png" alt="" class="zoom"></div>
+        </section>
+
+        <section class="form">
+            <h1>ОСТАВЬТЕ ЗАЯВКУ НА АУДИТ</h1>
+            <p><i>И я составлю для Вас лучшую рекламную стратегию на Авито</i></p>
+            <form action="send.php" method="post">
+                <input type="text" class="contacts__form-input" placeholder="ВАШЕ ИМЯ" name="name">
+                <input type="text" class="contacts__form-input" placeholder="EMAIL" name="email">
+                <textarea name="" id="" placeholder="РАССКАЖИТЕ О ВАШЕМ ПРОЕКТЕ" class="contacts__form-txtarea"></textarea>
+                <button class="form__btn" type="submit">Отправить<img src="assets/icons/north_east.svg" alt=""></button>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>

@@ -8,7 +8,6 @@ body {
   width: 75%;
   height: 90%;
   padding-top: 100px;
-  /* ТУТ СТИЛИ ДЛЯ ФОРМЫ*/
 }
 .contacts .contacts__contact-info {
   font-family: IBM Plex Sans;
@@ -48,7 +47,7 @@ body {
   font-size: 14px;
   font-weight: 600;
 }
-.contacts .contacts__form {
+.contacts__form {
   font-family: IBM Plex Sans;
   width: 55%;
   background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
@@ -58,11 +57,11 @@ body {
   /*display: flex;
   justify-content: space-around;*/
 }
-.contacts .contacts__form h1 {
+.contacts__form h1 {
   font-size: 1.8vw;
   margin-bottom: 60px;
 }
-.contacts .contacts__form-input {
+.contacts__form-input {
   background: none;
   border-width: 0 0 1px 0;
   border-bottom: #fff 1px solid;
@@ -71,16 +70,16 @@ body {
   height: 35px;
   /*box-shadow: 0 3px 3px -3px #fff;*/
 }
-.contacts input {
+.input {
   outline: none;
 }
-.contacts .contacts__form-input::placeholder, .contacts .contacts__form-txtarea::placeholder {
+.contacts__form-input::placeholder, .contacts__form-txtarea::placeholder {
   color: #fff;
 }
-.contacts .contacts__form-input:active {
+.contacts__form-input:active {
   background: none;
 }
-.contacts .contacts__form-txtarea {
+.contacts__form-txtarea {
   margin-bottom: 40px;
   margin-top: 60px;
   border: none;
@@ -90,14 +89,14 @@ body {
   height: 60px;
   border-bottom: #fff 1px solid;
 }
-.contacts .contacts__form-txtarea:active {
+.contacts__form-txtarea:active {
   border: 0cm;
   box-shadow: none;
 }
-.contacts textarea {
+textarea {
   outline: none;
 }
-.contacts .form__btn {
+.form__btn {
   background-color: #000;
   width: 211px;
   height: 56px;
@@ -110,7 +109,7 @@ body {
   justify-content: center;
   margin-bottom: 20px;
 }
-.contacts .form__btn img {
+.form__btn img {
   margin-left: 10px;
 }
 
