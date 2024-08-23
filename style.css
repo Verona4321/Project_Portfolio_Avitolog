@@ -29,6 +29,12 @@
 }
 
 @font-face {
+  font-weight: 500;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-MediumItalic.ttf');
+}
+
+@font-face {
   font-weight: 600;
   font-family: IBM Plex Sans;
   src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf');
@@ -37,7 +43,7 @@
 @font-face {
   font-weight: 700;
   font-family: IBM Plex Sans;
-  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf');
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf');
 }
 
 body {
