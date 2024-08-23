@@ -55,6 +55,8 @@ body {display: flex;}
     }
     }
 
+    /* ТУТ СТИЛИ ДЛЯ ФОРМЫ*/
+    
     .contacts__form {
         font-family: IBM Plex Sans;
         width: 55%;
@@ -62,6 +64,8 @@ body {display: flex;}
         height: 90%;
         padding: 60px;
         color: white;
+        /*display: flex;
+        justify-content: space-around;*/
 
         h1 {font-size: 1.8vw; margin-bottom: 60px;}
     }
@@ -69,14 +73,18 @@ body {display: flex;}
     .contacts__form-input {
         background: none;
         border-width: 0 0 1px 0;
-        border-bottom: #fff;
+        border-bottom: #fff 1px solid;
         color: #fff;
-        box-shadow: 0 3px 3px -3px #fff;
+        margin-right: 30px;
+        height: 35px;
+        /*box-shadow: 0 3px 3px -3px #fff;*/
     }
 
     input {outline: none;}
 
     .contacts__form-input::placeholder, .contacts__form-txtarea::placeholder {color: #fff;}
+
+    .contacts__form-input:active {background: none;}
 
     .contacts__form-txtarea {
         margin-bottom: 40px;
@@ -85,6 +93,8 @@ body {display: flex;}
         background: none;
         color: #fff;
         width: 80%;
+        height: 60px;
+        border-bottom: #fff 1px solid;
     }
 
     .contacts__form-txtarea:active {border: 0cm; box-shadow: none;}
