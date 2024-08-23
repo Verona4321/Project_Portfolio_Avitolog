@@ -25,25 +25,6 @@ a {
 }
 
 .navbar {
-<<<<<<< HEAD
-  min-width: 300px;
-  background-color: black;
-  position: sticky;
-  top: 0;
-  height: 100vh;
-}
-
-.navbar__inner * {
-  color: rgba(255, 255, 255, 1);
-}
-
-.navbar__container {
-  height: 100%;
-  background-color: rgba(20, 19, 19, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-=======
 min-width: 20%;
 background-color: black;
 position: sticky;
@@ -57,7 +38,6 @@ height: 100vh;
     display: flex;
     align-items: center; 
     margin-left: 20%;
->>>>>>> ebd22e80c66876653ab00b7d222102fc2cfc737c
 }
 
 .navbar__inner {
