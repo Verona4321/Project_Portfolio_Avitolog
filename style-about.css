@@ -21,6 +21,11 @@
     font-family: 'IBM_Plex_Sans_medium';
 }
 
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.ttf");
+    font-family: 'IBM_Plex_Sans_Italic';
+}
+
 h2, h3, span, p {
     margin: 0;
 }
@@ -85,7 +90,7 @@ font-size: 18px;
     align-items: center;
     gap: 5px;
     font-size: 18px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .welcom-block__download-link:hover {
@@ -148,6 +153,17 @@ font-size: 18px;
     align-items: center;
     margin-top: 64px;
     padding: 40px;
+    font-family: 'IBM_Plex_Sans_Italic';
+}
+
+.content-block__text p {font-family: 'IBM_Plex_Sans_Italic'; text-align: justify;}
+
+.content-block__text__color {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
+    font-family: 'IBM_Plex_Sans_SemiBoldItalic';
 }
 
 .experience {
@@ -159,8 +175,11 @@ color: #FFFFFF;
 }
 
 .resume {
-    padding: 130px 8%;
-    width: 45%;
+    /*padding: 100px 8%;*/
+    padding-top: 8%;
+    padding-left: 90px;
+    padding-right: 60px;
+    width: 75%;
 }
 
 .resume__btn {
@@ -178,13 +197,19 @@ color: #FFFFFF;
 .resume__description {
     padding-top: 30px;
     text-transform: uppercase;
+    font-size: 2.6vw;
+    font-family: 'IBM_Plex_Sans_bold';
 }
 
 .resume-list {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 130px 8%;
+    /*padding: 130px 8%;*/
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-top: 8%;
+    padding-bottom: 6%;
 }
 
 .resume-list__item {
@@ -199,13 +224,14 @@ color: #FFFFFF;
 
 .resume-list__item-description {
     padding: 32px 0;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     border-bottom: 1px solid #FFFFFF20;
 }
 
 .resume__text {
     line-height: 28px;
     padding-top: 20px;
+    /*text-align: justify;*/
 }
 
 .team {
@@ -262,7 +288,7 @@ border-radius: 50%;
     font-size: 1em;
 }
 
-.about__description, .welcome-block__title, .info__item-number, .resume__description, .team__title {
+.about__description, .welcome-block__title, .info__item-number, .team__title {
     font-family: 'IBM_Plex_Sans_bold';
     font-size: 2.67em;
 }
@@ -290,7 +316,7 @@ font-family: 'IBM_Plex_Sans_regular';
 }
 
 .resume-list__item-description {
-    font-family: 'IBM_Plex_Sans_BoldItalic';
+    font-family: 'IBM_Plex_Sans_Bold';
     font-size: 1.5em;
 }
 
