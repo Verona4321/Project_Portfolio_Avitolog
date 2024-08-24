@@ -9,16 +9,17 @@ body {
 }
 
 .main {
-  max-width: 50%;
+  /*max-width: 50%;*/
+  width: 73%;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 .title_reviews {
   font-family: IBM Plex Sans, serif;
   font-style: italic;
   font-weight: 600;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   text-align: left;
 }
 
@@ -27,7 +28,6 @@ body {
   font-weight: 700;
   font-size: 2.7vw;
   text-transform: uppercase;
-  /*text-align: center;*/
   color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -50,4 +50,59 @@ body {
 .img_reviewers {
   width: 200px;
   border-radius: 10%;
+}
+
+
+/*Мои стили*/
+
+.reviews {margin-top: 20px;}
+
+.review_name   {
+  font-family: IBM Plex Sans, serif;
+  font-weight: 600;
+  font-size: 1.8vw;
+  margin-top: 40px;
+}
+
+.review {display: flex;}
+
+.review__img {margin-top: 15px; margin-bottom: 15px;}
+
+.review_text {
+  /*margin-top: 70px;*/
+  padding: 20px 80px;
+  font-family: IBM Plex Sans, serif;
+  font-style: normal;
+  text-align: justify;
+}
+
+.review__line {
+  height: 0.5px;
+  width: 95%;
+  background-color: #d4d2d2;
+  /*margin-top: 20px;*/
+}
+
+details {color: #333;}
+
+summary:before {
+  content: "+";
+  font-size: 60px;
+  height: 200px;
+  font-weight: 200;
+  margin: 10px 45px 15px 15px;
+  float: left;
+}
+
+details[open] summary:before {
+  content: "_";
+  margin: 10px 45px 15px 15px;
+  color: #333;
+}
+
+details > summary {
+  padding: 5px;
+  color: #333;
+  cursor: pointer;
+  list-style: none;
 }
