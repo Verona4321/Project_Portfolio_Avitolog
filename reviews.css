@@ -10,7 +10,7 @@ body {
 
 .main {
   max-width: 50%;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 50px;
 }
 
@@ -25,9 +25,13 @@ body {
 .subtitle_reviews {
   font-family: IBM Plex Sans, serif;
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 2.7vw;
   text-transform: uppercase;
-  text-align: center;
+  /*text-align: center;*/
+  color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
 }
 
 .container_reviews {
