@@ -21,6 +21,11 @@
     font-family: 'IBM_Plex_Sans_medium';
 }
 
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.ttf");
+    font-family: 'IBM_Plex_Sans_Italic';
+}
+
 h2, h3, span, p {
     margin: 0;
 }
@@ -33,12 +38,10 @@ html {
 *, *::after, *::before {
     box-sizing: inherit;
     color: inherit;
-    font-size: 18px;
 }
 
 .main {
 max-width: 1350px;
-font-size: 18px;
 }
 
 .about {
@@ -79,7 +82,6 @@ font-size: 18px;
 }
 
 .welcom-block__download-link {
-    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,10 +92,6 @@ font-size: 18px;
 
 .welcom-block__download-link:hover {
     text-decoration: underline;
-}
-
-.welcom-block__download-link:active {
-    font-size: 19px;
 }
 
 .contacts {
@@ -112,7 +110,7 @@ font-size: 18px;
     gap: 10px;
 } 
 
-.info{
+.info {
     display: flex;
     gap: 30px;
     margin-top: 48px;
@@ -137,6 +135,7 @@ font-size: 18px;
 .info__item-description {
     margin-top: 20px;
     margin-bottom: 0;
+    text-align: justify;
 }
 
 .content-block__text{
@@ -148,19 +147,28 @@ font-size: 18px;
     align-items: center;
     margin-top: 64px;
     padding: 40px;
+    text-align: justify;
+}
+
+.content-block__text-color {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
 }
 
 .experience {
+padding: 100px 8%;
 display: flex;
 margin-top: 50px;
 background: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
 color: #FFFFFF; 
+gap: 8%;
 
 }
 
 .resume {
-    padding: 130px 8%;
-    width: 45%;
+    min-width: 30%;
 }
 
 .resume__btn {
@@ -175,6 +183,10 @@ color: #FFFFFF;
     padding: 0 6%;
 }
 
+.resume__btn:hover {
+    text-decoration: underline;
+}
+
 .resume__description {
     padding-top: 30px;
     text-transform: uppercase;
@@ -184,7 +196,7 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 130px 8%;
+
 }
 
 .resume-list__item {
@@ -199,7 +211,6 @@ color: #FFFFFF;
 
 .resume-list__item-description {
     padding: 32px 0;
-    text-transform: uppercase;
     border-bottom: 1px solid #FFFFFF20;
 }
 
@@ -227,12 +238,13 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     min-width: 80px;
 }
 
 .team__item-photo{
 width: 60%;
-max-width: 300px;
+max-width: 280px;
 border-radius: 50%;
 }
 
@@ -248,14 +260,6 @@ border-radius: 50%;
     
     
 }
-
-
-
-
-
-
-
-
 
 .about__title, .resume__title, .resume-list__title, .team__item-function {
     font-family: 'IBM_Plex_Sans_SemiBoldItalic';
@@ -285,16 +289,62 @@ border-radius: 50%;
     font-size: 1.11em;
 }
 
+.content-block__text-color {
+    font-family: 'IBM_Plex_Sans_SemiBoldItalic';
+    font-size: 1.11em;
+}
+
 .info__item-description, .resume__text {
 font-family: 'IBM_Plex_Sans_regular';
 }
 
 .resume-list__item-description {
-    font-family: 'IBM_Plex_Sans_BoldItalic';
+    font-family: 'IBM_Plex_Sans_Bold';
     font-size: 1.5em;
 }
 
 .resume-list__item-name * {
 font-family: 'IBM_Plex_Sans_medium';
 font-size: 0.89em;
+}
+
+@media (min-width: 1900px) {
+main {
+    font-size: 18px;}
+}
+
+@media (max-width: 1900px) and (min-width: 1200px) {
+main {
+    font-size: 18px;}
+}
+
+@media (max-width: 1200px) { 
+main {
+        font-size: 15px;}
+}
+
+@media (max-width: 770px) {
+
+    .about__inner {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .welcome-block {
+        gap: 30px;
+    }
+
+    .experience {
+        flex-direction: column;
+        gap: 80px;
+    }
+}
+
+@media (max-width: 425px) {
+    .info {
+        flex-direction: column;
+    }
+    .info__item {
+        width: 80%;
+    }
 }
