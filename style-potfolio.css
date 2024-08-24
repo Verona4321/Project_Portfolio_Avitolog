@@ -1,1 +1,102 @@
-@import url(style.css);
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf");
+    font-family: 'IBM_Plex_Sans_regular';
+}
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf");
+    font-family: 'IBM_Plex_Sans_bold';
+}
+
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-BoldItalic.ttf");
+    font-family: 'IBM_Plex_Sans_BoldItalic';
+}
+
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.ttf");
+    font-family: 'IBM_Plex_Sans_SemiBoldItalic';
+}
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf");
+    font-family: 'IBM_Plex_Sans_medium';
+}
+
+body {
+    font-size: 1vw;
+}
+
+.projects {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.projects__title {
+    margin-top: 5vw;
+    font-family: "IBM_Plex_Sans_bold";
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-bottom: 2vw;
+    text-align: start;
+    color: transparent;
+    background: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.projects__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+}
+
+.projects__card {
+    color: #000000;
+    display: flex;
+    flex-direction: row; /* Изображение слева, текст справа */
+    background-color: white;
+    border-radius: 0; 
+    padding: 2vw;
+    transition: transform 0.3s ease;
+    align-items: center; /* Выровнять элементы по центру */
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.projects__card:hover {
+    transform: translateY(-1vw);
+}
+
+.projects__image {
+    width: 16vw;
+    height: auto;
+    margin-left: 1vw; 
+    z-index: 1;
+}
+
+.projects__content {
+    flex: 1;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.projects__category {
+    font-family: "IBM_Plex_Sans_bold";
+    font-size: 2vw;
+    color: #333;
+    margin-bottom: 2vw; /* Отступ между заголовком и стрелкой */
+    margin-top: 0;
+}
+
+.projects__arrow {
+    width: 4vw;
+    height: auto;
+}
+
+
+
+
+
