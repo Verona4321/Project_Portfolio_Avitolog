@@ -281,17 +281,14 @@ aside {
 
   .contacts__contact-info__phone1 a {text-decoration: none;}
 
-  
-  
+
   .contacts__form {padding: 40px;}
 }
 
 @media (min-width: 591px) {
   .contacts__phone1 {display: none;}
   .contacts__social-networks1 {display: none;}
-
 }
-
 
 @media (max-width: 450px) {
   .contacts__form h1 {
