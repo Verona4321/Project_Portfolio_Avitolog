@@ -73,11 +73,11 @@ main {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 2vw;
+  gap: 5%;
 
   font-weight: 700;
-  font-style: italic;
-  font-size: 0.9vw;
+  /*font-style: italic;*/
+  font-size: 1vw;
 }
 
 .index_content_contacts_number {
