@@ -61,7 +61,6 @@ main {
 
   font-weight: 500;
   font-size: 0.9vw;
-  font-style: normal;
 }
 
 .index_content_button_arrow {
@@ -113,7 +112,7 @@ main {
   width: 2vw;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 480px) {
   aside {
     display: none;
   }
