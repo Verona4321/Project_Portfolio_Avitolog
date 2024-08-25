@@ -125,3 +125,114 @@ body {
     width: 1.5vw;
     height: auto;
 }
+
+
+
+
+.testimonial {
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    padding: 5vw;
+    background: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
+    border-radius: 0;
+    clear: both; 
+}
+
+.testimonial__heading {
+    font-family: "IBM_Plex_Sans_regular";
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 1vw;
+}
+
+.testimonial__title {
+    font-family: "IBM_Plex_Sans_bold";
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 3vw;
+}
+
+.testimonial__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.testimonial__image-container {
+    flex: 1 1 40%;
+    text-align: center;
+}
+
+.testimonial__image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 1vw;
+}
+
+.testimonial__text {
+    flex: 1 1 55%;
+    color: white;
+}
+
+.testimonial__quote {
+    font-family: "IBM_Plex_Sans_SemiBoldItalic";
+    font-size: 1.5vw;
+    line-height: 1.4;
+    margin-bottom: 2vw;
+}
+
+.testimonial__author {
+    font-family: "IBM_Plex_Sans_bold";
+    font-size: 1.8vw;
+    margin-bottom: 0.5vw;
+}
+
+.testimonial__date {
+    font-family: "IBM_Plex_Sans_regular";
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+}
+
+.testimonial__navigation {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.testimonial__nav-button {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    margin: 0 1vw;
+    cursor: pointer;
+}
+
+.testimonial__nav-button--prev::before {
+    content: '<';
+    font-size: 1.5vw;
+    color: #FF6C63;
+}
+
+.testimonial__nav-button--next::before {
+    content: '>';
+    font-size: 1.5vw;
+    color: #FF6C63;
+}
+
+.testimonial__partners {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+
+.testimonial__partner-logo {
+    max-width: 12vw;
+    height: auto;
+}
