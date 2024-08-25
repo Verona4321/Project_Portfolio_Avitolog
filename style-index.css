@@ -113,10 +113,7 @@ main {
   width: 2vw;
 }
 
-@media (max-width: 1080px) {
-  aside {
-    display: none;
-  }
+@media (max-width: 480px) {
 
   main {
     width: 100%;
@@ -173,6 +170,8 @@ main {
 
     font-size: 3vw;
   }
+
+  .index_content_contacts_number {font-size: 4vw;}
 
   .index_content_contacts_icon {
     width: 4vw;
