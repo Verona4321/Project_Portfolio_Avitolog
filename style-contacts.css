@@ -171,6 +171,23 @@ aside {
   }
 }
 
+@media (max-width: 770px) {
+  body {
+    display:block;
+  }
+
+  .contacts__form {
+    font-family: IBM Plex Sans;
+    width: 70%;
+  }
+
+  .contacts .contacts__contact-info {width: 60%;}
+
+  .contacts .contacts__contact-info {
+    margin-right: 10%;
+  }
+}
+
 @media (max-width: 680px) {
   .contacts .contacts__contact-info a {
     font-size: 2vw;
@@ -218,14 +235,10 @@ aside {
 
 
 @media (max-width: 590px) {
-  .contacts {flex-wrap: wrap; padding-top: 40px;}
+  .contacts {flex-wrap: wrap; padding-top: 40px; padding-bottom: 40px; width: 90%;}
 
   .contacts .contacts__contact-info h1 {
-    font-size: 3.7vw;
-  }
-
-  .contacts .contacts__contact-info h1 {
-    font-size: 2.7vw;
+    font-size: 3.1vw;
   }
 
   .contacts .contacts__contact-info .contacts__contact-info__phone  {
@@ -262,15 +275,17 @@ aside {
     margin-top: 20px;
     margin-left: 10%;
     justify-content: center;
+    gap: 20px;
   }
   .contacts__social-networks1 {
     margin-top: 10px;
+    margin-left: 20px;
     display: flex;
     justify-content: space-around;
     font-family: IBM Plex Sans;
     flex-wrap: wrap;
     margin-left: 10%;
-    gap: 5px;
+    gap: 15px;
   }
   .contacts .contacts__contact-info a {
     color: #000;
@@ -294,4 +309,15 @@ aside {
   .contacts__form h1 {
     font-size: 5vw;
   }
+
+  .contacts .contacts__contact-info h1 {
+    font-size: 4.5vw;
+  }
 }
+
+@media (max-width: 400px) {
+  .contacts .contacts__contact-info h1 {
+    font-size: 5vw;
+  }
+}
+
