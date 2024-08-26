@@ -33,7 +33,17 @@ h1 {
 
 .navbar__container {
     background-color: rgba(20, 19, 19, 0.1);
+    display: flex;
+    align-items: center; 
+    margin-left: 20%;
 }
+
+.navbar__inner {
+    height: calc(100% - 112px);
+    max-width: 189px;
+    display: grid;
+    grid-template-rows: 140fr 500fr 214fr; 
+}  
 
 .navbar__inner * {
     color: rgba(255, 255, 255, 1);
@@ -41,15 +51,27 @@ h1 {
 
 .menu__list {
     list-style-type: none;
-    list-style-position: inside;
+    list-style-position: inside; 
     padding-left: 0;
     margin: 0;
+}
+
+.menu__list-item + .menu__list-item {
+    padding-top: 20px;
 }
 
 .menu__list-link {
     text-decoration: none;
     font-family: 'IBM_Plex_Sans_regular';
     text-transform: uppercase;
+}
+
+.menu__list-link:hover {
+    font-family: 'IBM_Plex_Sans_bold';
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 4px;
+	background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
 }
 
 .logo__text {
