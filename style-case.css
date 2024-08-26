@@ -4,7 +4,6 @@
     padding-top: 80px;
 }
 
-
 .case_about {
     display: flex; 
     justify-content: space-between;
@@ -24,6 +23,16 @@
 }
 
 .name_of_case h2 {font-size: 1.4vw;}
+
+
+.pict_of_case {
+    width: 100%;
+}
+
+.pict_of_case > img {
+    width: 100%;
+    object-fit: cover;
+}
 
 .numbers {
     display: flex;
@@ -103,4 +112,10 @@ img.zoom:hover {
 
 :not(:active) > img.zoom:not(:hover), img.zoom:active {
     pointer-events: none;
+}
+
+
+
+@media (max-width: 770px) {
+
 }
