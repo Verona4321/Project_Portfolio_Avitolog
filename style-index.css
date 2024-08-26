@@ -194,3 +194,10 @@ main {
     width: 10vw;
   }
 }
+
+
+/* МОИ МЕДИАЗАПРОСЫ */
+
+@media (max-width: 770px) {
+  body {display: block;}
+}
