@@ -112,7 +112,17 @@ main {
   width: 2vw;
 }
 
+@media (max-width: 770px) and (min-width: 481px) {
+  body {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 480px) {
+  body {
+    flex-direction: column;
+  }
+
   main {
     width: 100%;
     flex-direction: column;
