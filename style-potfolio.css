@@ -37,10 +37,16 @@ body {
     font-weight: bold;
     margin-bottom: 1vw;
     text-align: start;
-    color: transparent;
+    /*color: transparent;
     background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147); 
     -webkit-background-clip: text;
-    background-clip: text;
+    background-clip: text;*/
+
+    background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*text-transform: uppercase;*/
 }
 
 .projects__grid {
