@@ -32,11 +32,13 @@ body {
 
 .projects__title {
     margin-top: 5vw;
+    margin-left: 2vw;
     font-family: "IBM_Plex_Sans_bold";
     font-size: 2.5vw;
     font-weight: bold;
     margin-bottom: 1vw;
-    text-align: start;
+    text-align: left;
+    text-transform: uppercase;
     color: transparent;
     background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147); 
     -webkit-background-clip: text;
@@ -52,7 +54,7 @@ body {
 .projects__card {
     color: #000000;
     display: flex;
-    flex-direction: row; /* Изображение слева, текст справа */
+    flex-direction: row;
     background-color: white;
     border-radius: 0; 
     padding: 2vw;
@@ -87,7 +89,7 @@ body {
     font-family: "IBM_Plex_Sans_bold";
     font-size: 2vw;
     color: #333;
-    margin-bottom: 2vw; /* Отступ между заголовком и стрелкой */
+    margin-bottom: 2vw;
     margin-top: 0;
 }
 
@@ -95,8 +97,6 @@ body {
     width: 4vw;
     height: auto;
 }
-
-
 
 .feedback-button {
     text-align: center;
@@ -126,9 +126,6 @@ body {
     height: auto;
 }
 
-
-
-
 .testimonial {
     margin-top: 5vw;
     margin-left: 5vw;
@@ -145,7 +142,6 @@ body {
     font-size: 1.5vw;
     text-align: center;
     color: white;
-    margin-bottom: 1vw;
 }
 
 .testimonial__title {
@@ -153,7 +149,7 @@ body {
     font-size: 3vw;
     text-align: center;
     color: white;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
 }
 
 .testimonial__content {
@@ -170,7 +166,7 @@ body {
 }
 
 .testimonial__image {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
     border-radius: 1vw;
 }
@@ -182,26 +178,28 @@ body {
 
 .testimonial__quote {
     font-family: "IBM_Plex_Sans_SemiBoldItalic";
-    font-size: 1.5vw;
-    line-height: 1.4;
-    margin-bottom: 2vw;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    margin-bottom: 1vw;
 }
 
 .testimonial__author {
     font-family: "IBM_Plex_Sans_bold";
-    font-size: 1.8vw;
+    font-size: 1.1vw;
     margin-bottom: 0.5vw;
 }
 
 .testimonial__date {
     font-family: "IBM_Plex_Sans_regular";
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     margin-bottom: 2vw;
 }
 
 .testimonial__navigation {
     text-align: center;
-    margin-top: 2vw;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
 }
 
 .testimonial__nav-button {
@@ -212,27 +210,39 @@ body {
     height: 3vw;
     margin: 0 1vw;
     cursor: pointer;
+    font-size: 1.5vw;
+    color: #FF6C63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.testimonial__nav-button:hover {
+    background-color: #FF6C63;
+    color: white;
+    transform: scale(1.1);
 }
 
 .testimonial__nav-button--prev::before {
-    content: '<';
-    font-size: 1.5vw;
-    color: #FF6C63;
+    content: '‹';
 }
 
 .testimonial__nav-button--next::before {
-    content: '>';
-    font-size: 1.5vw;
-    color: #FF6C63;
+    content: '›';
 }
 
-.testimonial__partners {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3vw;
+
+
+
+.testimonial__slide {
+    display: none;
+    width: 100%;
+    transition: opacity 0.5s ease;
 }
 
-.testimonial__partner-logo {
-    max-width: 12vw;
-    height: auto;
+.testimonial__slide.active {
+    display: block;
+    opacity: 1;
 }
