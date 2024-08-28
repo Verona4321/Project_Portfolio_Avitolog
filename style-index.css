@@ -118,12 +118,26 @@ main {
 
 
 @media (max-width: 1000px) and (min-width: 771px) {
-  
+  main {align-content: center; margin-bottom: 50px;}
+  .index_content_hello {font-size: 5.9vw;}
+  .index_image-container {width: 65%;}
+  .index_content_point {font-size: 2.5vw;}
+  .index_content_button {
+    width: 19vw;
+    height: 50px;
+    font-size: 1.6vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .index_content_button_arrow {width: 2.3vw;}
+  .index_content_contacts {font-size: 1.8vw; flex-wrap: wrap;}
+  .index_content_contacts_icon {width: 2.3vw;}
+  .index_content_contacts_email {margin-top: 10px;}
 }
 
-
-
-@media (max-width: 770px) and (min-width: 481px) {
+@media (max-width: 770px) {
   body {
     flex-direction: column;
   }
@@ -133,7 +147,7 @@ main {
 
   .index_content_button {
     width: 28vw;
-    height: 5.6vw;
+    height: 40px;
     font-size: 2vw;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -153,6 +167,37 @@ main {
     width: 3vw;
     margin-left: 5px;
   }
+}
+
+@media (max-width: 530px) {
+  main {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin-top: 60px;
+  }
+
+  body {
+    flex-direction: column;
+  }
+  .index_content {width: 92%;}
+  .index_content_hello {font-size: 5.9vw;}
+  .index_content_point {
+  font-size: 4vw;
+}
+.index_content_button {
+  width: 28vw;
+  height: 55px;
+  font-size: 2.7vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+  .index_content_contacts {font-size: 3vw;}
+  .index_image-container {width: 70%;}
 }
 
 @media (max-width: 480px) {
