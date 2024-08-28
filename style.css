@@ -46,14 +46,16 @@
     src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf")
 }
 
+
+
 body {
     width: 100%;
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1900px) {
 
     body {
-        max-width: 1200px;
+        max-width: 1900px;
         margin: 0 auto;
     }
     }
