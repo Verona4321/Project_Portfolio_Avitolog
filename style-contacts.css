@@ -140,7 +140,7 @@ body {
 }
 .contacts .contacts__contact-info .contacts__contact-info__phone {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 2vw;
   margin-top: 15px;
 }
 .contacts .contacts__contact-info .contacts__phone {
@@ -156,7 +156,7 @@ body {
 .contacts .contacts__contact-info a {
   color: #000;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1vw;
   font-weight: 600;
 }
 .contacts__form {
@@ -166,8 +166,6 @@ body {
   height: 90%;
   padding: 60px;
   color: white;
-  /*display: flex;
-  justify-content: space-around;*/
 }
 .contacts__form h1 {
   font-size: 1.8vw;
@@ -191,6 +189,8 @@ body {
 }
 .contacts__form-input:active {
   background: none;
+  border: 0cm;
+  box-shadow: none;
 }
 .contacts__form-txtarea {
   margin-bottom: 40px;
@@ -232,3 +232,205 @@ aside {
 }
 
 /*# sourceMappingURL=style-contacts.css.map */
+
+@media (max-width: 1000px) {
+  .contacts .contacts__contact-info a {
+    font-size: 1.2vw;
+    gap: 10px;
+  }
+
+  .contacts__social-networks {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+}
+
+@media (max-width: 890px) {
+  .contacts {padding-top: 60px;}
+
+  .contacts .contacts__contact-info a {
+    font-size: 1.4vw;
+    gap: 10px;
+  }
+
+  .contacts__social-networks {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .contacts__form h1 {
+    font-size: 2.3vw;
+  }
+}
+
+@media (max-width: 790px) {
+  .contacts .contacts__contact-info a {
+    font-size: 1.6vw;
+  }
+
+  .contacts .contacts__contact-info .contacts__contact-info__phone {
+    font-size: 2.4vw;
+  }
+
+  .contacts .contacts__contact-info h1 {
+    font-size: 2.7vw;
+  }
+}
+
+@media (max-width: 779px) {
+  .contacts {padding-top: 50px;}
+  .form__btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 770px) {
+  body {
+    display:block;
+  }
+
+  .contacts__form {
+    font-family: IBM Plex Sans;
+    width: 70%;
+  }
+
+  .contacts .contacts__contact-info {width: 60%;}
+
+  .contacts .contacts__contact-info {
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 680px) {
+  .contacts .contacts__contact-info a {
+    font-size: 2vw;
+  }
+
+  .contacts__form h1 {
+    font-size: 2.55vw;
+  }
+
+  .contacts .contacts__contact-info .contacts__contact-info__phone  {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 650px) {
+  .contacts .contacts__contact-info a {
+    font-size: 2vw;
+  }
+
+  .contacts .contacts__contact-info h1 {
+    font-size: 2.5vw;
+  }
+
+  .contacts__form h1 {
+    font-size: 3.3vw;
+  }
+
+  .contacts__social-networks {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .contacts .contacts__contact-info .contacts__contact-info__phone  {
+    font-size: 2.55vw;
+  }
+}
+
+@media (max-width: 639px) {
+  .contacts .contacts__contact-info .contacts__contact-info__phone  {
+    font-size: 2.5vw;
+  }
+
+  .contacts {padding-top: 50px;}
+}
+
+
+@media (max-width: 590px) {
+  .contacts {flex-wrap: wrap; padding-top: 40px; padding-bottom: 40px; width: 90%;}
+
+  .contacts .contacts__contact-info h1 {
+    font-size: 3.1vw;
+  }
+
+  .contacts .contacts__contact-info .contacts__contact-info__phone  {
+    font-size: 2.5vw;
+  }
+
+  .contacts__form {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .contacts .contacts__contact-info {
+    font-family: IBM Plex Sans;
+    width: 100%;
+  }
+
+  .contacts .contacts__contact-info .contacts__phone {display: none;}
+  .contacts .contacts__contact-info .contacts__social-networks {display: none;}
+
+  .contacts .contacts__contact-info .contacts__contact-info__phone1 {
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-top: 15px;
+  }
+
+  .contacts__phone1 a {text-decoration: none; color: #000;}
+  .contacts__social-networks1 a {text-decoration: none; color: #000;}
+
+  .contacts__phone1 {
+    font-family: IBM Plex Sans;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 10%;
+    justify-content: center;
+    gap: 20px;
+  }
+  .contacts__social-networks1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: IBM Plex Sans;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    gap: 15px;
+  }
+  .contacts .contacts__contact-info a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 600;
+  }
+
+  .contacts__contact-info__phone1 a {text-decoration: none;}
+
+
+  .contacts__form {padding: 40px;}
+}
+
+@media (min-width: 591px) {
+  .contacts__phone1 {display: none;}
+  .contacts__social-networks1 {display: none;}
+}
+
+@media (max-width: 450px) {
+  .contacts__form h1 {
+    font-size: 5vw;
+  }
+
+  .contacts .contacts__contact-info h1 {
+    font-size: 4.5vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .contacts .contacts__contact-info h1 {
+    font-size: 5vw;
+  }
+}
+
