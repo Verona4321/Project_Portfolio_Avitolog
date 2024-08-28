@@ -23,17 +23,17 @@
 }
 
 @font-face {
-    font-weight: 500; 
-    font-style: normal;
-    font-family: IBM Plex Sans;
-    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf")
+  font-weight: 500;
+  font-style: normal;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf');
 }
 
 @font-face {
-    font-weight: 500; 
-    font-style: italic;
-    font-family: IBM Plex Sans;
-    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-MediumItalic.ttf")
+  font-weight: 500;
+  font-style: italic;
+  font-family: IBM Plex Sans;
+  src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-MediumItalic.ttf');
 }
 
 @font-face {
@@ -48,16 +48,15 @@
   src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf');
 }
 
-
-
 body {
   width: 100%;
 }
 
-@media (min-width: 1900px) {
-
-    body {
-        max-width: 1900px;
-        margin: 0 auto;
+<<<<<<< HEAD @media (min-width: 1900px) {
+  ======= @media (min-width: 1800px) {
+    >>>>>>>efbec666e9aa20d5e0c0e3dd9f9ee26d76cc3374 body {
+      max-width: 1200px;
+      margin: 0 auto;
     }
-    }
+  }
+}

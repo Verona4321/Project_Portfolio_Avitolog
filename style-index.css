@@ -14,7 +14,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 3vw 0 7vw;
+  padding: 0 3vw;
+  height: inherit;
 }
 
 .index_content {
@@ -61,7 +62,6 @@ main {
 
   font-weight: 500;
   font-size: 0.9vw;
-  font-style: normal;
 }
 
 .index_content_button_arrow {
@@ -96,8 +96,12 @@ main {
   width: 1.7vw;
 }
 
+.index_image-container {width: 50%; display: flex; justify-content: center;}
+
 .index_image {
-  width: 38vw;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .index_socials {
@@ -113,7 +117,18 @@ main {
   width: 2vw;
 }
 
+@media (max-width: 770px) and (min-width: 481px) {
+  body {
+    flex-direction: column;
+  }
+
+  main {flex-direction: column;}
+}
+
 @media (max-width: 480px) {
+  body {
+    flex-direction: column;
+  }
 
   main {
     width: 100%;
@@ -128,9 +143,9 @@ main {
     align-items: center;
   }
 
-  .socials__img_right_line {
+  /*.socials__img_right_line {
     display: none;
-  }
+  }*/
 
   .index_content_hello {
     font-weight: 400;
