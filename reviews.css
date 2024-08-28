@@ -9,10 +9,9 @@ body {
 }
 
 .main {
-  /*max-width: 50%;*/
   width: 73%;
   margin-top: 50px;
-  margin-left: 70px;
+  margin-left: 7%;
 }
 
 .title_reviews {
@@ -69,7 +68,6 @@ body {
 .review__img {margin-top: 15px; margin-bottom: 15px;}
 
 .review_text {
-  /*margin-top: 70px;*/
   padding: 20px 80px;
   font-family: IBM Plex Sans, serif;
   font-style: normal;
@@ -105,4 +103,86 @@ details > summary {
   color: #333;
   cursor: pointer;
   list-style: none;
+}
+
+.form {
+  font-family: IBM Plex Sans;
+  width: 90%;
+  background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
+  padding: 60px;
+  color: white;
+  margin-top: 50px;
+  margin-right: 80px;
+  text-transform: uppercase;
+}
+
+.form h1 {margin-bottom: 50px; font-size: 2.7vw;}
+
+
+
+@media (max-width: 1100px) {
+  .title_reviews {font-size: 1.8vw;}
+  .review_text {padding: 20px 30px;}
+  .subtitle_reviews {font-size: 3vw;}
+  .form h1 {font-size: 3vw;}
+}
+
+
+@media (max-width: 770px) {
+  body {display: block;}
+  .main {width: 85%;}
+  .title_reviews {font-size: 2.5vw;}
+  .subtitle_reviews, .form h1 {font-size: 3.5vw;}
+  .review_text {padding: 20px 15px;}
+  .review_name {font-size: 2.4vw;}
+}
+
+@media (max-width: 660px) {
+  summary:before {
+    margin-left: 9px;
+    margin-right: 10%;
+  }
+
+  /*.review__img {width: 100%;}
+  .review__img > img {
+    object-fit: cover;
+    width: 100%;
+  }*/
+  .img_reviewers {
+    width: 150px;
+  }
+}
+
+@media (max-width: 560px) {
+  .review_name {font-size: 3vw;}
+  .subtitle_reviews, .form h1 {font-size: 4vw;}
+  .main {width: 89%;}
+  .form {width: 96%;}
+  summary:before {
+    /*margin: 10px 45px 15px 15px;*/
+    margin-left: 5px;
+    margin-right: 20px;
+    float: left;
+    height: 100%;
+  }
+  
+  details[open] summary:before {
+    content: "_";
+    margin: 10px 45px 15px 15px;
+    color: #333;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .main {
+    align-content: center;}
+  .review {flex-wrap: wrap; justify-content: center;}
+  .review__img {display: flex; justify-content: center;}
+  .img_reviewers {width: 150px;}
+  summary:before {height: 200px;}
+  .review_name {font-size: 4vw; text-align: center;}
+  .title_reviews {font-size: 4vw; text-align: center;}
+  .subtitle_reviews {text-align: center;}
+  .subtitle_reviews, .form h1 {font-size: 5vw;}
 }
