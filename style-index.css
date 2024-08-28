@@ -131,7 +131,7 @@ main {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  .index_content_button_arrow {width: 2.3vw;}
+  .index_content_button_arrow {width: 2.3vw; margin-right: 1vw;}
   .index_content_contacts {font-size: 1.8vw; flex-wrap: wrap;}
   .index_content_contacts_icon {width: 2.3vw;}
   .index_content_contacts_email {margin-top: 10px;}
@@ -166,6 +166,7 @@ main {
   .index_content_button_arrow {
     width: 3vw;
     margin-left: 5px;
+    margin-right: 1vw;
   }
 }
 
