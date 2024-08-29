@@ -195,12 +195,12 @@ body {
 }
 
 .testimonial__divider {
+    margin-top: -5px;
     border: 0;
     height: 1px;
     background: #ffffff;
     position: absolute;
-    width: 100%; /* Или установите фиксированное значение ширины */
-    margin-top: 1vw;
+    width: 100%; 
     opacity: 0.5;
 }
 
