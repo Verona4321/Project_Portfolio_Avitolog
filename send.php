@@ -1,6 +1,7 @@
 <?php
 $name = $_POST['name'];
 $email = $_POST['email'];
+$text = $_POST['text'];
 $name = htmlspecialchars($name);
 $email = htmlspecialchars($email);
 $name = urldecode($name);
@@ -10,10 +11,11 @@ $email = trim($email);
 echo $name;
 echo "<br>";
 echo $email;
-if (mail("sverona432@yandex.ru", "Заявка с сайта", "Имя:".$name.". E-mail: ".$email ,""))
- {     echo "сообщение успешно отправлено";
+echo $text;
+if (mail("sverona432@yandex.ru", "Заявка с сайта",  "Имя: " .$name.",  E-mail: " .$email.  ",  Сообщение: ".$text.""))
+ {     echo "Спасибо, Ваше сообщение успешно отправлено!";
 } else {
-    echo "при отправке сообщения возникли ошибки";
+    echo "При отправке сообщения возникли ошибки :(";
 }?>
 
 
