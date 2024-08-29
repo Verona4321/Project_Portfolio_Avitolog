@@ -329,76 +329,91 @@ font-size: 0.89em;
 
 /*ДЛЯ ФОРМЫ*/
 
+.contacts1 {display: flex; justify-content: center;}
 
-  .contacts__contact-info {
+.contacts__contact-info {
     font-family: 'IBM_Plex_Sans_regular';
     width: 43%;
     padding-left: 50px;
     margin-right: 40px;
-  }
-  .contacts1 .contacts__contact-info h2 {
+}
+
+.contacts1 .contacts__contact-info h2 {
     font-size: 24px;
     font-weight: 500;
-  }
-  .contacts1 .contacts__contact-info h1 {
+}
+
+.contacts1 .contacts__contact-info h1 {
     font-size: 2.2vw;
     font-family: 'IBM_Plex_Sans_bold';
-  }
-  .contacts1 .contacts__contact-info p {
+}
+
+.contacts1 .contacts__contact-info p {
     font-weight: 400;
-  }
-  .contacts1 .contacts__contact-info .contacts__contact-info__phone {
+}
+
+.contacts1 .contacts__contact-info .contacts__contact-info__phone {
     font-weight: 700;
     font-family: 'IBM_Plex_Sans_bold';;
     font-size: 24px;
     margin-top: 15px;
-  }
-  .contacts1 .contacts__contact-info .contacts__phone {
+}
+
+.contacts1 .contacts__contact-info .contacts__phone {
     display: flex;
     flex-wrap: wrap;
     margin-top: 70px;
-  }
-  .contacts1 .contacts__contact-info .contacts__social-networks {
+}
+
+.contacts1 .contacts__contact-info .contacts__social-networks {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
-  }
-  .contacts1 .contacts__contact-info a {
+}
+
+.contacts1 .contacts__contact-info a {
     color: #000;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
-  }
-  .contacts__form {
+}
+
+.contacts__form {
     font-family: 'IBM_Plex_Sans_regular';
     background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
     padding: 60px;
     width: 80%;
     color: white;
-  }
-  .contacts__form h1 {
+}
+
+.contacts__form h1 {
     font-size: 1.8vw;
     margin-bottom: 60px;
     font-family: 'IBM_Plex_Sans_bold';
-  }
-  .contacts__form-input {
+}
+
+.contacts__form-input {
     background: none;
     border-width: 0 0 1px 0;
     border-bottom: #fff 1px solid;
     color: #fff;
     margin-right: 30px;
     height: 35px;
-  }
-  .input {
+}
+
+.input {
     outline: none;
-  }
-  .contacts__form-input::placeholder, .contacts__form-txtarea::placeholder {
+}
+
+.contacts__form-input::placeholder, .contacts__form-txtarea::placeholder {
     color: #fff;
-  }
-  .contacts__form-input:active {
+}
+
+.contacts__form-input:active {
     background: none;
-  }
-  .contacts__form-txtarea {
+}
+
+.contacts__form-txtarea {
     margin-bottom: 40px;
     margin-top: 60px;
     border: none;
@@ -408,15 +423,16 @@ font-size: 0.89em;
     height: 60px;
     border-bottom: #fff 1px solid;
     resize : none;
-  }
-  .contacts__form-txtarea:active {
+}
+
+.contacts__form-txtarea:active {
     border: 0cm;
     box-shadow: none;
-  }
-  textarea {
+}
+textarea {
     outline: none;
-  }
-  .form__btn {
+}
+.form__btn {
     background-color: #000;
     width: 211px;
     height: 56px;
@@ -428,8 +444,7 @@ font-size: 0.89em;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-  }
-  .form__btn img {
+}
+.form__btn img {
     margin-left: 10px;
-  }
-  
+}
