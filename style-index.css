@@ -31,12 +31,21 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   font-family: IBM Plex Sans;
+  position: relative;
 }
 
 .index_content_hello {
   font-weight: 400;
   font-size: 5.3vw;
   line-height: 1em;
+}
+
+.index_content_half-circle-img {
+  width: 11vw;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: -2vw;
 }
 
 .index_content_hello-name {
@@ -81,7 +90,6 @@ main {
   align-items: center;
   gap: 5%;
   font-weight: 700;
-  /*font-style: italic;*/
   font-size: 1.3vw;
 }
 
@@ -207,6 +215,10 @@ main {
     align-items: center;
   }
 
+  .index_content_half-circle-img {
+    display: none;
+  }
+
   .index_content_button {
     width: 28vw;
     height: 40px;
@@ -254,7 +266,13 @@ main {
   .index_content {
     width: 92%;
   }
+
+  .index_content_half-circle-img {
+    display: none;
+  }
+
   .index_content_hello {
+    background-size: 20vw;
     font-size: 5.9vw;
   }
   .index_content_point {
@@ -295,6 +313,10 @@ main {
     width: 78vw;
     height: 75vw;
     align-items: center;
+  }
+
+  .index_content_half-circle-img {
+    display: none;
   }
 
   .index_content_hello {
