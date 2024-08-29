@@ -156,8 +156,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 2vw;
+    position: relative;
 }
 
 .testimonial__image-container {
@@ -193,6 +192,16 @@ body {
     font-family: "IBM_Plex_Sans_regular";
     font-size: 1.1vw;
     margin-bottom: 2vw;
+}
+
+.testimonial__divider {
+    border: 0;
+    height: 1px;
+    background: #ffffff;
+    position: absolute;
+    width: 100%; /* Или установите фиксированное значение ширины */
+    margin-top: 1vw;
+    opacity: 0.5;
 }
 
 .testimonial__navigation {
@@ -251,7 +260,7 @@ body {
 /* Стили для планшетов (ширина экрана от 768px до 1024px) */
 @media (max-width: 1024px) and (min-width: 768px) {
     .projects__title {
-        font-size: 4vw; /* Увеличиваем размер шрифта на планшетах */
+        font-size: 4vw; 
         padding-left: 3vw;
         margin-bottom: 4vw;
         margin-top: 5vw;
@@ -280,7 +289,7 @@ body {
     }
 
     .projects__category {
-        font-size: 3vw; /* Увеличиваем размер текста */
+        font-size: 3vw; 
         margin-bottom: 1vw;
     }
 
@@ -292,20 +301,26 @@ body {
 
     .feedback-button__link {
         margin-top: 4vw;
-        font-size: 1.7vw; /* Увеличиваем размер текста кнопки */
-        padding: 1.7vw 2vw; /* Увеличиваем отступы внутри кнопки */
+        font-size: 1.7vw; 
+        padding: 1.7vw 2vw; 
     }
 
     .testimonial__content {
-        flex-direction: column; /* На планшетах выводим изображение и текст друг под другом */
+        flex-direction: column; 
+        position: relative;
+    }
+
+    .testimonial__divider {
+        display: none;
     }
 
     .testimonial__image {
-        max-width: 50%; /* Уменьшаем ширину изображения на планшетах */
+        max-width: 50%; 
     }
 
     .testimonial__quote {
-        font-size: 2vw; /* Увеличиваем размер текста цитаты */
+        margin-top: 2vw;
+        font-size: 2vw; 
     }
 
     .testimonial__author {
@@ -316,7 +331,7 @@ body {
     .testimonial__nav-button {
         width: 6vw;
         height: 6vw;
-        font-size: 3vw; /* Увеличиваем размер кнопок навигации на планшетах */
+        font-size: 3vw; 
     }
 }
 
@@ -386,11 +401,16 @@ body {
         gap: 3vw;
     }
 
+    .testimonial__divider {
+        display: none;
+    }
+
     .testimonial__image {
         max-width: 40%;
     }
 
     .testimonial__quote {
+        margin-top: 2vw;
         font-size: 2.6vw; 
     }
 
