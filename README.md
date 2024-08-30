@@ -11,6 +11,8 @@ HTML5
 JAVASCRIPT
 FIGMA
 GITHUB
+PHP
+SASS
 Функционал сайта:
 Адаптивность к разным устройствам
 Слайдеры
