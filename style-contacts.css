@@ -27,7 +27,7 @@ body {
 .contacts .contacts__contact-info .contacts__contact-info__phone {
   font-weight: 700;
   font-size: 24px;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 .contacts .contacts__contact-info .contacts__phone {
   display: flex;
@@ -140,8 +140,9 @@ body {
 .contacts .contacts__contact-info .contacts__contact-info__phone {
   font-weight: 700;
   font-size: 2vw;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
+.contacts__contact-info__phone {display: flex; align-items: center;}
 .contacts .contacts__contact-info .contacts__phone {
   display: flex;
   flex-wrap: wrap;
@@ -231,6 +232,12 @@ aside {
 }
 
 /*# sourceMappingURL=style-contacts.css.map */
+
+.index_content_contacts_icon {
+  width: 1.7vw;
+}
+
+.phone {display: flex; align-items: center;}
 
 @media (max-width: 1000px) {
   .contacts .contacts__contact-info a {
