@@ -105,6 +105,8 @@ main {
   align-items: center;
 }
 
+.index_content_contacts_number a, .index_content_contacts_email a {text-decoration: none; color: black;}
+
 .index_content_contacts_icon {
   width: 1.7vw;
 }
