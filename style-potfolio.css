@@ -20,6 +20,10 @@
     src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf");
     font-family: 'IBM_Plex_Sans_medium';
 }
+@font-face {
+    src: url("assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.ttf");
+    font-family: 'IBM_Plex_Sans_italic';
+}
 
 body {
     font-size: 1vw;
@@ -141,6 +145,15 @@ body {
     color: white;
 }
 
+.testimonial__subtitle {
+    font-family: "IBM_Plex_Sans_SemiBoldItalic";
+    font-size: 1.2vw;
+    line-height: 1.5;
+    margin-bottom: 1vw;
+    text-align: center;
+    color: white;
+}
+
 .testimonial__title {
     font-family: "IBM_Plex_Sans_bold";
     font-size: 3vw;
@@ -173,7 +186,7 @@ body {
 }
 
 .testimonial__quote {
-    font-family: "IBM_Plex_Sans_SemiBoldItalic";
+    font-family: "IBM_Plex_Sans_italic";
     font-size: 1.2vw;
     line-height: 1.5;
     margin-bottom: 1vw;
@@ -182,6 +195,12 @@ body {
 .testimonial__author {
     font-family: "IBM_Plex_Sans_bold";
     font-size: 1.1vw;
+    margin-bottom: 0.5vw;
+    margin-top: 35px;
+}
+.testimonial__author__profession {
+    font-family: "IBM_Plex_Sans_regular";
+    font-size: 0.9vw;
     margin-bottom: 0.5vw;
 }
 
@@ -302,6 +321,8 @@ body {
         padding: 1.7vw 2vw; 
     }
 
+    .testimonial__subtitle {font-size: 1.7vw;}
+
     .testimonial__content {
         flex-direction: column; 
         position: relative;
@@ -321,9 +342,11 @@ body {
     }
 
     .testimonial__author {
-        margin-top: 3vw;
+        margin-top: 30px;
         font-size: 1.8vw;
     }
+
+    .testimonial__author__profession {font-size: 1.4vw;}
 
     .testimonial__nav-button {
         width: 6vw;
@@ -393,6 +416,8 @@ body {
         margin-right: 6vw;
     }
 
+    .testimonial__subtitle {font-size: 2.4vw;}
+
     .testimonial__content {
         flex-direction: column; /* изображение и текст друг под другом */
         gap: 3vw;
@@ -415,6 +440,8 @@ body {
         margin-top: 3vw;
         font-size: 2.3vw;
     }
+
+    .testimonial__author__profession {font-size: 2.2vw;}
 
     .testimonial__nav-button {
         width: 7vw;
