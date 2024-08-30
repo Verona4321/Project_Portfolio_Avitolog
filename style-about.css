@@ -47,6 +47,7 @@ max-width: 1350px;
 .about {
     padding-top: 100px;
     padding-left: 8%;
+    padding-right: 6%;
 }
 .about__description {
     margin-top: 12px;
@@ -149,6 +150,8 @@ max-width: 1350px;
     padding: 40px;
     text-align: justify;
 }
+
+.content-block__text p {font-family: 'IBM_Plex_Sans_Italic';}
 
 .content-block__text-color {
     color: transparent;
