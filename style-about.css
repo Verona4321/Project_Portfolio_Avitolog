@@ -95,6 +95,8 @@ max-width: 1350px;
     text-decoration: underline;
 }
 
+
+
 .contacts {
     display: flex;
     flex-wrap: wrap;
@@ -323,7 +325,11 @@ main {
 
 @media (max-width: 1200px) { 
 main {
-        font-size: 15px;}
+    font-size: 15px;}
+
+.welcome-block__img {
+    max-width: 300px;
+    }
 }
 
 @media (max-width: 770px) {
