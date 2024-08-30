@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Я и моя команда</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Продвижение в Авито">
+    <meta property="og:description" content="Приведу к вам клиентов из Авито за 7 дней">
+    <meta property="og:url" content="http://lysovartem.ru/">
+    <meta property="og:image" content="http://lysovartem.ru/assets/index/2.png">
+    <meta property="og:site_name" content="Авитолог">
+    <meta property="og:locale" content="ru_RU">
     <link rel="stylesheet" href="assets/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-navbar.css">
@@ -88,6 +95,7 @@
             <p class="about__description">Приведу вам 400+ заявок за месяц</p>
             <div class="about__inner">
                 <section class="welcome-block">
+                    <img class="welcome-block__img" src="assets/about/Frame.svg" alt="">
                     <h3 class="welcome-block__title">Артём Лысов</h3>
                     <span class="welcome-block__description">Приведу к вам клиентов из Авито</span>
                     <a class="welcom-block__download-link" href="#">Скачать презентацию<img
@@ -99,19 +107,19 @@
                             <a href="tel:+79999913899">
                                 <img class="contacts__item-icon" src="assets/icons/Phone_Icon.svg" alt="">
                             </a>
-                            <span class="contacts__item-text">+79999913899</span>
+                            <a href="tel:+79999913899"><span class="contacts__item-text">+7(999)99-138-99</span></a>
                         </div>
                         <div class="contacts__item">
                             <a href="mailto:lysovv.a2002@gmail.com">
                                 <img class="contacts__item-icon" src="assets/icons/Mail_Icon.svg" alt="">
                             </a>
-                            <span class="contacts__item-text">lysovv.a2002@gmail.com</span>
+                            <a href="mailto:lysovv.a2002@gmail.com"><span class="contacts__item-text">lysovv.a2002@gmail.com</span></a>
                         </div>
                         <div class="contacts__item">
                             <a href="https://t.me/artemlysovv">
                                 <img class="contacts__item-icon" src="assets/icons/Person_Icon.svg" alt="">
                             </a>
-                            <span class="contacts__item-text">@artemlysovv</span>
+                            <a href="https://t.me/artemlysovv"><span class="contacts__item-text">@artemlysovv</span></a>
                         </div>
                         <div class="contacts__item">
                             <img class="contacts__item-icon" src="assets/icons/Location_Icon.svg" alt="">
@@ -140,7 +148,7 @@
                     <div class="content-block__text">
                         <p>Сейчас в ряду ниш Авито <span class="content-block__text-color">сильно</span> выгоднее, чем
                             реклама в поисковиках или соцсетях: площадка стремительно развивается и во многих нишах до
-                            сих пор нет большой конкуренции, а стоимость лидов дешевле на <span
+                            сих пор нет большой конкуренции, а стоимость лидов на <span
                                 class="content-block__text-color">20-60%</span> дешевле, чем на других площадках</p>
                     </div>
                 </section>
@@ -166,13 +174,7 @@
                 </div>
                 <div class="resume-list__item">
                     <div class="resume-list__item-name"><span>Этап 3</span><span>Запуск рекламы</span></div>
-                    <p class="resume-list__item-description">Запускаем рекламу, используем разные стратегии</p>
-                </div>
-                <div class="resume-list__item">
-                    <div class="resume-list__item-name"><span>Этап 4</span><span>Вы получаете новых клиентов!</span>
-                    </div>
-                    <p class="resume-list__item-description">Вам остаётся обрабатывать заявки, получать новых клиентов и
-                        прибыль!</p>
+                    <p class="resume-list__item-description">Запускаем рекламу, применяем разные рекламные стратегии</p>
                 </div>
             </section>
         </section>
@@ -194,6 +196,27 @@
                     <span class="team__item-name">Евгений Семеновых</span>
                     <span class="team__item-function">Дизайнер</span>
                 </div>
+                <div class="team__item">
+                    <img class="team__item-photo" src="assets/about/photo_michail.webp" alt="">
+                    <span class="team__item-name">Михаил</span>
+                    <span class="team__item-function">Авитолог</span>
+                </div>
+                <div class="team__item">
+                    <img class="team__item-photo" src="assets/about/photo_matvei.webp" alt="">
+                    <span class="team__item-name">Матвей</span>
+                    <span class="team__item-function">Авитолог</span>
+                </div>
+            </div>
+        </section>
+        <section class="contacts1">
+            <div class="contacts__form">
+                <h1>ОСТАВЬТЕ ЗАЯВКУ НА АУДИТ</h1>
+                <form action="send.php" method="post">
+                    <input type="text" class="contacts__form-input" placeholder="ВАШЕ ИМЯ" name="name">
+                    <input type="text" class="contacts__form-input" placeholder="EMAIL" name="email">
+                    <textarea name="" id="" placeholder="РАССКАЖИТЕ О ВАШЕМ ПРОЕКТЕ" class="contacts__form-txtarea"></textarea>
+                    <button class="form__btn" type="submit">Отправить<img src="assets/icons/north_east.svg" alt=""></button>
+                </form>
             </div>
         </section>
     </main>
