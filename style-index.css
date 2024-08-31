@@ -261,6 +261,18 @@ main {
   
 }
 
+@media (max-width: 590px) {
+  .index_content_hello {font-size: 5.5vw; margin-top: 20px;}
+  .index_content_point {font-size: 3vw;}
+  .index_content_button {font-size: 2.5vw;}
+  .index_content_contacts {
+    font-size: 3.2vw;
+    flex-wrap: wrap;
+    justify-content: center;}
+  .index_image-container {width: 80%;}
+
+}
+
 @media (max-width: 530px) {
   main {
     width: 100%;
