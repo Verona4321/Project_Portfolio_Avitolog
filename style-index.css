@@ -252,10 +252,12 @@ main {
     margin-right: 1vw;
   }
 
-  /*.index_socials {
+  .index_socials {
     display: none;
-  }*/
-
+  }
+  .index_socials {display: none;}
+  .socials__right_line {display: none;}
+  .socials__right_line-img {display: none;}
   
 }
 
