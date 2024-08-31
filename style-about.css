@@ -88,7 +88,10 @@ max-width: 1350px;
     align-items: center;
     gap: 5px;
     font-size: 18px;
-    text-decoration: none;
+    /*text-decoration: none;*/
+    text-decoration: underline;
+    color: #000;
+    margin-top: 20px;
 }
 
 .welcom-block__download-link:hover {
@@ -413,7 +416,7 @@ main {
     font-weight: 600;
 }
 
-.contacts__form {
+.contacts1 .contacts__form {
     font-family: 'IBM_Plex_Sans_regular';
     background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
     padding: 60px;

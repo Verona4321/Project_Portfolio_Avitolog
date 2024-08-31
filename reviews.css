@@ -63,6 +63,7 @@ body {
   margin-top: 40px;
 }
 
+.review_profession {font-family: IBM Plex Sans}
 .review {display: flex;}
 
 .review__img {margin-top: 15px; margin-bottom: 15px;}

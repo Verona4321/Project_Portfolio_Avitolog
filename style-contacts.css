@@ -60,9 +60,9 @@ body {
 .contacts .contacts__form-input {
   background: none;
   border-width: 0 0 1px 0;
-  border-bottom: #fff;
-  color: #fff;
-  box-shadow: 0 3px 3px -3px #fff;
+  border-bottom: #fff 1px solid;
+  /*color: #fff;*/
+  /*box-shadow: 0 3px 3px -3px #fff;*/
 }
 .contacts input {
   outline: none;
@@ -80,6 +80,7 @@ body {
   margin-top: 60px;
   border: none;
   background: none;
+  border-bottom: #fff 1px solid;
   color: #fff;
   width: 80%;
 }
@@ -167,7 +168,7 @@ body {
   padding: 60px;
   color: white;
 }
-.contacts__form h1 {
+.contacts .contacts__form h1 {
   font-size: 1.8vw;
   margin-bottom: 60px;
 }
@@ -235,9 +236,14 @@ aside {
 
 .index_content_contacts_icon {
   width: 1.7vw;
+  margin-right: 5px;
 }
 
 .phone {display: flex; align-items: center;}
+
+@media (max-width: 1100px) {
+  .index_content_contacts_icon {width: 2.2vw;}
+}
 
 @media (max-width: 1000px) {
   .contacts .contacts__contact-info a {
@@ -249,13 +255,15 @@ aside {
       flex-wrap: wrap;
       gap: 10px;
     }
+  
+  .index_content_contacts_icon {width: 2.2vw;}
 }
 
 @media (max-width: 890px) {
   .contacts {padding-top: 60px;}
 
   .contacts .contacts__contact-info a {
-    font-size: 1.4vw;
+    font-size: 1.9vw;
     gap: 10px;
   }
 
@@ -264,9 +272,10 @@ aside {
     gap: 10px;
   }
 
-  .contacts__form h1 {
+  .contacts .contacts__form h1 {
     font-size: 2.3vw;
   }
+
 }
 
 @media (max-width: 790px) {
@@ -275,7 +284,7 @@ aside {
   }
 
   .contacts .contacts__contact-info .contacts__contact-info__phone {
-    font-size: 2.4vw;
+    font-size: 2.3vw;
   }
 
   .contacts .contacts__contact-info h1 {
@@ -285,8 +294,11 @@ aside {
 
 @media (max-width: 779px) {
   .contacts {padding-top: 50px;}
-  .form__btn {
+  .contacts .form__btn {
     width: 100%;
+  }
+  .contacts .contacts__contact-info .contacts__contact-info__phone  {
+    font-size: 2.3vw;
   }
 }
 
@@ -295,10 +307,7 @@ aside {
     display:block;
   }
 
-  .contacts__form {
-    font-family: IBM Plex Sans;
-    width: 70%;
-  }
+  .contacts .contacts__form {width: 100%;}
 
   .contacts .contacts__contact-info {width: 60%;}
 
@@ -312,13 +321,15 @@ aside {
     font-size: 2vw;
   }
 
-  .contacts__form h1 {
-    font-size: 2.55vw;
+  .contacts .contacts__form h1 {
+    font-size: 2.8vw;
   }
 
   .contacts .contacts__contact-info .contacts__contact-info__phone  {
     font-size: 2.5vw;
   }
+
+  .form__btn {width: 80%;}
 }
 
 @media (max-width: 650px) {
@@ -330,7 +341,7 @@ aside {
     font-size: 2.5vw;
   }
 
-  .contacts__form h1 {
+.contacts .contacts__form h1{
     font-size: 3.3vw;
   }
 
@@ -350,6 +361,7 @@ aside {
   }
 
   .contacts {padding-top: 50px;}
+  .contacts .contacts__form {width: 60%; padding: 40px;}
 }
 
 
@@ -364,7 +376,7 @@ aside {
     font-size: 2.5vw;
   }
 
-  .contacts__form {
+  .contacts .contacts__form {
     width: 90%;
     margin-left: 10%;
   }
@@ -373,6 +385,8 @@ aside {
     font-family: IBM Plex Sans;
     width: 100%;
   }
+
+  .index_content_contacts_icon {width: 3vw;}
 
   .contacts .contacts__contact-info .contacts__phone {display: none;}
   .contacts .contacts__contact-info .contacts__social-networks {display: none;}
@@ -392,7 +406,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-left: 10%;
+    margin-left: 15%;
     justify-content: center;
     gap: 20px;
   }
@@ -403,7 +417,7 @@ aside {
     justify-content: space-around;
     font-family: IBM Plex Sans;
     flex-wrap: wrap;
-    margin-left: 10%;
+    margin-left: 15%;
     gap: 15px;
   }
   .contacts .contacts__contact-info a {
@@ -416,7 +430,7 @@ aside {
   .contacts__contact-info__phone1 a {text-decoration: none;}
 
 
-  .contacts__form {padding: 40px;}
+  .contacts .contacts__form {padding: 40px;}
 }
 
 @media (min-width: 591px) {
@@ -425,7 +439,7 @@ aside {
 }
 
 @media (max-width: 450px) {
-  .contacts__form h1 {
+  .contacts .contacts__form h1 {
     font-size: 5vw;
   }
 
