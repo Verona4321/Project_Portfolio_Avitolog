@@ -79,7 +79,7 @@ body {
   height: 0.5px;
   width: 95%;
   background-color: #d4d2d2;
-  /*margin-top: 20px;*/
+  margin-top: 10px;
 }
 
 details {color: #333;}
@@ -133,7 +133,7 @@ details > summary {
   .main {width: 85%;}
   .title_reviews {font-size: 2.5vw;}
   .subtitle_reviews, .form h1 {font-size: 3.5vw;}
-  .review_text {padding: 20px 15px;}
+  .review_text {padding-left: 6vw;}
   .review_name {font-size: 2.4vw;}
 }
 

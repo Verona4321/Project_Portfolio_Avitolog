@@ -144,11 +144,14 @@ img.zoom:hover {
     .name_of_case h2 {font-size: 2vw;}
     .number {font-size: 2.5vw;}
     .pict_of_case img {height: 100%; object-fit: cover;}
+    .case_pic {width: 80%;}
 }
 
 @media (max-width: 650px) {
     .name_of_case h2 {font-size: 2.3vw;}
-    .number {font-size: 2.6vw;}
+    .number {font-size: 3vw;}
+    .numbers__about {width: 160px; margin-bottom: 10px;}
+    .numbers {flex-wrap: wrap; justify-content: center; gap: 15px;}
 }
 
 @media (max-width: 550px) {
@@ -158,16 +161,18 @@ img.zoom:hover {
     .number {font-size: 3vw;}
     .rsya {padding: 30px; width: 70%; font-size: 3vw;}
     .form {padding: 10vw;}
+    .numbers__about {width: 230px;}
 }
 
 @media (max-width: 450px) {
     .cases {padding-top: 30px; padding-right: 7%;}
     .name_of_case h2 {font-size: 3.3vw;}
     .name_of_case h1 {font-size: 4vw;}
-    .numbers {margin-bottom: 30px;}
+    .numbers {margin-bottom: 30px; margin-top: 30px;}
     .rsya {padding: 20px; width: 75%; font-size: 3.3vw;}
     .case_pictures {margin-top: 50px; display: block;}
     .case_pic {width: 100%;}
+    .numbers__about {width: 200px;}
 }
 
 @media (max-width: 370px) {
@@ -175,4 +180,7 @@ img.zoom:hover {
     .numbers__description {font-size: 3.5vw;}
     .numbers__number {word-break:normal; font-size: 4vw;}
     .rsya {padding: 20px; width: 75%; font-size: 3.5vw;}
+    .number {font-size: 4vw;}
+    .numbers {margin-top: 30px;}
+    .numbers__about {width: 200px;}
 }
