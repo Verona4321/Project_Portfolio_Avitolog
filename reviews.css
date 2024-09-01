@@ -120,7 +120,6 @@ details > summary {
 .form h1 {margin-bottom: 50px; font-size: 2.7vw;}
 
 
-
 @media (max-width: 1100px) {
   .title_reviews {font-size: 1.8vw;}
   .review_text {padding: 20px 30px;}
@@ -144,14 +143,10 @@ details > summary {
     margin-right: 10%;
   }
 
-  /*.review__img {width: 100%;}
-  .review__img > img {
-    object-fit: cover;
-    width: 100%;
-  }*/
   .img_reviewers {
     width: 150px;
   }
+  .form h1 {margin-bottom: 40px;}
 }
 
 @media (max-width: 560px) {
@@ -160,7 +155,6 @@ details > summary {
   .main {width: 89%;}
   .form {width: 96%;}
   summary:before {
-    /*margin: 10px 45px 15px 15px;*/
     margin-left: 5px;
     margin-right: 20px;
     float: left;
@@ -176,14 +170,15 @@ details > summary {
 
 
 @media (max-width: 480px) {
-  .main {
-    align-content: center;}
+  .main {align-content: center;}
   .review {flex-wrap: wrap; justify-content: center;}
   .review__img {display: flex; justify-content: center;}
   .img_reviewers {width: 150px;}
   summary:before {height: 200px;}
   .review_name {font-size: 4vw; text-align: center;}
+  .review_profession {text-align: center;}
   .title_reviews {font-size: 4vw; text-align: center;}
   .subtitle_reviews {text-align: center;}
   .subtitle_reviews, .form h1 {font-size: 5vw;}
+  .form {padding: 40px;}
 }

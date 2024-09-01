@@ -61,8 +61,7 @@ body {
   background: none;
   border-width: 0 0 1px 0;
   border-bottom: #fff 1px solid;
-  /*color: #fff;*/
-  /*box-shadow: 0 3px 3px -3px #fff;*/
+  margin-top: 10px;
 }
 .contacts input {
   outline: none;
@@ -178,6 +177,7 @@ body {
   border-bottom: #fff 1px solid;
   color: #fff;
   margin-right: 30px;
+  margin-top: 10px;
   height: 35px;
   /*box-shadow: 0 3px 3px -3px #fff;*/
 }
@@ -329,7 +329,7 @@ aside {
     font-size: 2.5vw;
   }
 
-  .form__btn {width: 80%;}
+  .form__btn {width: 100%;}
 }
 
 @media (max-width: 650px) {
@@ -454,3 +454,8 @@ aside {
   }
 }
 
+
+@media (max-width: 390px) {
+  .form__btn {width: 100%;}
+  .contacts .contacts__form {padding: 40px;}
+}
