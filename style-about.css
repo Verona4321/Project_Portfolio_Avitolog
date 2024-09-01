@@ -90,7 +90,7 @@ max-width: 1350px;
     font-size: 18px;
     /*text-decoration: none;*/
     text-decoration: underline;
-    color: #000;
+    color: #ffffff;
     margin-top: 20px;
 }
 
@@ -145,7 +145,7 @@ max-width: 1350px;
 }
 
 .content-block__text{
-    background-color: #141313;
+    background-color: #fe6b02;
     color: #FFFFFF;
     min-height: 144px;
     display: flex;
@@ -154,15 +154,15 @@ max-width: 1350px;
     margin-top: 64px;
     padding: 40px;
     text-align: justify;
+    -webkit-box-shadow: 0px 5px 24px 9px rgba(250, 163, 7, 0.26);
+-moz-box-shadow: 0px 5px 24px 9px rgba(250, 163, 7, 0.26);
+box-shadow: 0px 5px 24px 9px rgba(250, 163, 7, 0.26);
 }
 
 .content-block__text p {font-family: 'IBM_Plex_Sans_Italic';}
 
 .content-block__text-color {
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
+    color: #3f4041;
 }
 
 .experience {
@@ -259,14 +259,14 @@ border-radius: 50%;
 .team__item-name {
     margin-top: 30px;
     text-transform: uppercase;
+    color: white;
     
 }
 
 .team__item-function {
     margin-top: 10px;
     padding-bottom: 50px;
-    
-    
+    color: white;
 }
 
 .about__title, .resume__title, .resume-list__title, .team__item-function {
