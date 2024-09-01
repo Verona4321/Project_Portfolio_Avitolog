@@ -56,7 +56,7 @@ body {
 
 /*Мои стили*/
 
-.reviews {margin-top: 20px;}
+.reviews {margin-top: 20px; margin-bottom: 7vw;}
 
 .review_name   {
   font-family: IBM Plex Sans, serif;
@@ -75,7 +75,7 @@ body {
   padding: 20px 80px;
   font-family: IBM Plex Sans, serif;
   font-style: normal;
-  text-align: justify;
+  text-align: left;
   color: white;
 }
 
