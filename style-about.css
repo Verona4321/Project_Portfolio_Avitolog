@@ -98,7 +98,9 @@ max-width: 1350px;
     text-decoration: underline;
 }
 
-
+.welcome-block__img {
+    max-width: 400px;
+}
 
 .contacts {
     display: flex;
