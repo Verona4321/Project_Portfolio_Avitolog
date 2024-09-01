@@ -20,6 +20,7 @@ body {
   font-weight: 600;
   font-size: 1.4vw;
   text-align: left;
+  color: white;
 }
 
 .subtitle_reviews {
@@ -44,6 +45,7 @@ body {
   text-align: center;
   padding-top: 3vh;
   padding-bottom: 3vh;
+  color: white;
 }
 
 .img_reviewers {
@@ -61,9 +63,10 @@ body {
   font-weight: 600;
   font-size: 1.8vw;
   margin-top: 40px;
+  color: white;
 }
 
-.review_profession {font-family: IBM Plex Sans}
+.review_profession {font-family: IBM Plex Sans; color: white;}
 .review {display: flex;}
 
 .review__img {margin-top: 15px; margin-bottom: 15px;}
@@ -73,6 +76,7 @@ body {
   font-family: IBM Plex Sans, serif;
   font-style: normal;
   text-align: justify;
+  color: white;
 }
 
 .review__line {
