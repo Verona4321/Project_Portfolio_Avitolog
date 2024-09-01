@@ -157,6 +157,7 @@ img.zoom:hover {
     .numbers__description {font-size: 2.8vw;}
     .number {font-size: 3vw;}
     .rsya {padding: 30px; width: 70%; font-size: 3vw;}
+    .form {padding: 10vw;}
 }
 
 @media (max-width: 450px) {

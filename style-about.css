@@ -141,7 +141,7 @@ max-width: 1350px;
 .info__item-description {
     margin-top: 20px;
     margin-bottom: 0;
-    text-align: justify;
+    text-align: left;
 }
 
 .content-block__text{
@@ -370,7 +370,7 @@ main {
 .contacts1 .contacts__form {
     font-family: 'IBM_Plex_Sans_regular';
     background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
-    padding: 60px;
+    padding: 7аvw;
     width: 80%;
     color: white;
     margin-left: 10%;
@@ -460,7 +460,7 @@ textarea {
     .contacts__form h1 {font-size: 5vw;}
     .form__btn {width: 100%;}
     .contacts1 .contacts__form {
-        padding: 40px;
+        padding: 10vw;
         width: 80%;
     }
 }
