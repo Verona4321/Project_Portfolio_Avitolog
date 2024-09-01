@@ -445,7 +445,9 @@ textarea {
 }
 
 @media (max-width: 770px) {
-    .contacts__form h1 {font-size: 3vw;}
+    .contacts__form h1 {font-size: 3.2vw;}
+    .contacts1 .contacts__form {padding: 10vw;}
+    .form__btn {width: 90%;}
 }
 
 @media (max-width: 480px) {
