@@ -18,30 +18,30 @@
     <meta property="og:locale" content="ru_RU" />
     <link
       rel="icon"
-      href="assets/icons/favicon_io/favicon-16x16.png"
+      href="/assets/icons/favicon_io/favicon-16x16.png"
       type="image/png"
     />
 
-    <link rel="stylesheet" href="style-contacts.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="assets/normalize.css" />
-    <link rel="stylesheet" href="style-navbar.css" />
-    <link rel="stylesheet" href="style-about.css" />
-    <link rel="stylesheet" href="style-case.css" />
-    <link rel="stylesheet" href="style-contacts.css" />
+    <link rel="stylesheet" href="/assets/styles/normalize.css" />
+    <link rel="stylesheet" href="/assets/styles/contacts.css" />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link rel="stylesheet" href="/assets/styles/navbar.css" />
+    <link rel="stylesheet" href="/assets/styles/about.css" />
+    <link rel="stylesheet" href="/assets/styles/case.css" />
+
     <title>Кейс: кирпичный завод</title>
   </head>
   <body>
     <aside class="navbar">
       <div class="navbar__container">
         <div class="navbar__inner">
-          <a class="logo" href="index.html">
+          <a class="logo" href="/index.html">
             <h1 class="logo__text">AL</h1>
           </a>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
-                <a href="index.html" class="menu__list-link">Главная</a>
+                <a href="/index.html" class="menu__list-link">Главная</a>
               </li>
               <li class="menu__list-item">
                 <a href="about.html" class="menu__list-link">Я и команда</a>
@@ -81,26 +81,34 @@
             </ul>
           </nav>
           <div class="socials">
-            <a class="socials__item" href="https://t.me/artemlysovv" target="_blank">
+            <a
+              class="socials__item"
+              href="https://t.me/artemlysovv"
+              target="_blank"
+            >
               <div class="socials__item-inner">
                 <img
                   class="socials__img"
-                  src="assets/about/telegram.svg"
-                  alt="telegram"
+                  src="/assets/icons/telegram.svg"
+                  alt="иконка Телеграма"
                 />
                 <img
                   class="socials__img-mob"
-                  src="assets/about/telegram-white.svg"
-                  alt="telegram"
+                  src="/assets/icons/telegram-white.svg"
+                  alt="иконка Телеграма"
                 />
               </div>
             </a>
-            <a class="socials__item" href="https://wa.me/+79999913899" target="_blank">
+            <a
+              class="socials__item"
+              href="https://wa.me/+79999913899"
+              target="_blank"
+            >
               <div class="socials__item-inner">
                 <img
                   class="socials__img"
-                  src="assets/about/whatsapp.svg"
-                  alt="whatsapp"
+                  src="/assets/icons/whatsapp.svg"
+                  alt="иконка WhatsApp"
                 />
               </div>
             </a>
@@ -108,8 +116,8 @@
               <div class="socials__item-inner">
                 <img
                   class="socials__img"
-                  src="assets/about/vkontakte.svg"
-                  alt="vk"
+                  src="/assets/icons/vkontakte.svg"
+                  alt="иконка ВКонтакте"
                 />
               </div>
             </a>
@@ -131,7 +139,11 @@
           </p>
         </div>
         <div class="pict_of_case">
-          <img src="assets/portfolio/bricks.png" alt="" width="450px" />
+          <img
+            src="/assets/images/bricks_portfolio.png"
+            alt="фотография кирпичей"
+            width="450px"
+          />
         </div>
       </section>
 
@@ -147,10 +159,10 @@
 
         <div class="numbers__about">
           <div class="numbers__number">
-            <span class="number">816 ₽&nbsp;</span><i>покупатель</i>
+            <span class="number">816 ₽&nbsp;</span><i>за клиента</i>
           </div>
           <div class="numbers__description">
-            Каждый покупатель обошёлся клиенту в среднем 816 рублей, что очень
+            Каждый покупатель обошёлся клиенту в среднем в 816 рублей, что очень
             дёшево для этой сферы
           </div>
         </div>
@@ -174,10 +186,14 @@
 
       <section class="case_pictures">
         <div class="case_pic">
-          <img src="assets/portfolio/bricks-case.jpg" alt="" class="zoom" />
+          <img
+            src="/assets/images/bricks-case.jpg"
+            alt="статистика кейса"
+            class="zoom"
+          />
         </div>
         <!--<div class="case_pic">
-          <img src="assets/portfolio/case_1.png" alt="" class="zoom" />
+          <img src="/assets/portfolio/case_1.png" alt="статистика кейса" class="zoom" />
         </div>-->
       </section>
 
@@ -197,11 +213,17 @@
             placeholder="EMAIL"
             name="email"
           />
-          <textarea name="text" id="" placeholder="РАССКАЖИТЕ О ВАШЕМ ПРОЕКТЕ"
+          <textarea
+            name="text"
+            id=""
+            placeholder="РАССКАЖИТЕ О ВАШЕМ ПРОЕКТЕ"
             class="contacts__form-txtarea"
           ></textarea>
           <button class="form__btn" type="submit">
-            Отправить<img src="assets/icons/north_east.svg" alt="" />
+            Отправить<img
+              src="/assets/icons/north_east.svg"
+              alt="стрелочка-кнопка отправить форму"
+            />
           </button>
         </form>
       </section>
